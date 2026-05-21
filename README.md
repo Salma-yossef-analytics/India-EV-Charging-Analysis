@@ -1,38 +1,125 @@
-# India-EV-Charging-Analysis
-Exploratory Data Analysis (EDA) of Electric Vehicle charging patterns in India using Python
-India EV Charging Analysis 🚗⚡
+# EV Charging Behavior Analysis in Indian Cities 🚗⚡
 
-📌 Project Overview
-This project provides an in-depth analysis of Electric Vehicle (EV) charging station usage across major Indian cities. The goal was to identify patterns in energy consumption and investigate how urban environments influence charging behavior.
+Exploratory Data Analysis (EDA) and statistical investigation of Electric Vehicle charging behavior across major Indian cities using Python.
 
-🔍 Key Business Questions
-Is there a direct correlation between city type (Residential vs. Commercial) and energy consumption?
+---
 
-How does vehicle type (Bike, Car, Bus, Truck) affect the charging load in different geographical locations?
+## 📌 Project Overview
 
-🛠️ Tech Stack
-Language: Python
+This project analyzes Electric Vehicle (EV) charging station usage across Indian cities to explore patterns in energy consumption and understand how urban environments influence charging behavior.
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
+The analysis combines:
 
-Statistical Methods: Correlation Analysis, T-tests (Hypothesis Testing), Pivot Tables.
+* Exploratory Data Analysis (EDA)
+* Statistical testing
+* Pivot table analysis
+* Data visualization
 
-📈 Key Insights (The Story)
-The Correlation Paradox: Initial statistical tests showed a weak correlation between city type and energy consumption, suggesting that the "Residential/Commercial" label is too broad to predict load.
+to uncover operational insights for EV infrastructure planning.
 
-Geographical Deep-Dive: By using Pivot Tables, I discovered that Kolkata (a mountainous/hilly region) shows significantly higher energy consumption for Bikes, whereas in Delhi, bike consumption is at its lowest.
+---
 
-Actionable Recommendation: Infrastructure planning should prioritize small, frequent charging points for bikes in narrow, hilly terrains like Kolkata, while focusing on high-capacity stations for larger vehicles in metropolitan hubs.
+## 🔍 Key Business Questions
+
+* Does city type (Commercial vs. Residential) significantly affect energy consumption?
+* How does vehicle type influence charging demand across different cities?
+* Can broad city classification accurately predict charging behavior?
+
+---
+
+## 🛠️ Tech Stack
+
+### Language
+
+* Python
+
+### Libraries
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SciPy
+
+### Statistical Methods
+
+* Hypothesis Testing (Independent T-Test)
+* Pivot Tables
+* Crosstab Analysis
+* Descriptive Statistics
+
+---
+
+## 📈 Key Insights
+
+### The Correlation Paradox
+
+Initial statistical testing showed no significant relationship between city type and energy consumption.
+
+This suggests that broad classifications such as “Commercial” and “Residential” are too generalized to explain EV charging behavior accurately.
+
+---
+
+### Geographical Deep-Dive
+
+Using Pivot Tables revealed hidden patterns inside the data:
+
+* Kolkata showed unusually high bike energy consumption compared to other cities.
+* Delhi recorded relatively lower bike consumption despite being a major commercial center.
+* Trucks and buses dominated charging loads in specific urban regions regardless of city classification.
+
+These findings suggest that:
+
+> Vehicle distribution and local infrastructure characteristics may influence charging demand more than city labels themselves.
+
+---
+
+## 💡 Actionable Recommendation
+
+Infrastructure planning should focus on:
+
+* Vehicle distribution patterns within each city
+* Local traffic behavior
+* Geographic and urban characteristics
+
+For example:
+
+* Cities with dense or narrow urban layouts may benefit from smaller distributed charging points for bikes.
+* Metropolitan regions with high heavy-vehicle demand may require larger high-capacity charging stations.
+
+---
+
+## 📊 Visualizations
+
+### Energy Consumption by City Type
 
 <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/e610dbc2-2215-4c29-b477-df43297acd1a" />
 
+### Average Energy Consumption by City
 
 <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/4eaabc3f-dd66-4530-9a1e-3d22cb714c27" />
 
+---
 
-📂 Repository Structure
-Notebooks/: Contains the Jupyter Notebook with the full analysis.
+## 💡 What I Learned
 
-Data/: Dataset information and sources.
+This project taught me that non-significant statistical results are still valuable insights.
 
-Visuals/: Key charts and correlation matrices.
+The analysis also showed how deeper segmentation using Pivot Tables can reveal patterns hidden behind overall averages.
+
+---
+
+## 📂 Repository Structure
+
+```bash
+├── Notebooks/
+│   └── EV_Charging_Analysis.ipynb
+│
+├── Data/
+│   └── dataset.csv
+│
+├── Visuals/
+│   └── charts and plots
+│
+└── README.md
+```
