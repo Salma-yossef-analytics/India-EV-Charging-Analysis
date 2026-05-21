@@ -24,10 +24,10 @@ Geographical Deep-Dive: By using Pivot Tables, I discovered that Kolkata (a moun
 
 Actionable Recommendation: Infrastructure planning should prioritize small, frequent charging points for bikes in narrow, hilly terrains like Kolkata, while focusing on high-capacity stations for larger vehicles in metropolitan hubs.
 
-<img width="601" height="498" alt="image" src="https://github.com/user-attachments/assets/e610dbc2-2215-4c29-b477-df43297acd1a" />
+<img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/e610dbc2-2215-4c29-b477-df43297acd1a" />
 
 
-<img width="731" height="361" alt="image" src="https://github.com/user-attachments/assets/4eaabc3f-dd66-4530-9a1e-3d22cb714c27" />
+<img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/4eaabc3f-dd66-4530-9a1e-3d22cb714c27" />
 
 
 📂 Repository Structure
