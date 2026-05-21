@@ -97,7 +97,7 @@ For example:
 
 ### Average Energy Consumption by City
 
-<img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/4eaabc3f-dd66-4530-9a1e-3d22cb714c27" />
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/4eaabc3f-dd66-4530-9a1e-3d22cb714c27" />
 
 ---
 
